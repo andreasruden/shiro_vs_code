@@ -1,0 +1,34 @@
+{
+  "name": "shiro-language",
+  "displayName": "Shiro Language Support",
+  "description": "Syntax highlighting for Shiro programming language",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "shiro",
+        "aliases": [
+          "Shiro",
+          "shiro"
+        ],
+        "extensions": [
+          ".shiro"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "shiro",
+        "scopeName": "source.shiro",
+        "path": "./syntaxes/shiro.tmLanguage.json"
+      }
+    ]
+  }
+}
