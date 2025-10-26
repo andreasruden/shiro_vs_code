@@ -46,7 +46,7 @@
         },
         {
           "name": "keyword.other.shiro",
-          "match": "\\b(fn|var|class|view|self|import|export|extern)\\b"
+          "match": "\\b(fn|var|class|view|self|import|export|extern|as)\\b"
         }
       ]
     },
