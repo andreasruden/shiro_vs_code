@@ -54,7 +54,7 @@
       "patterns": [
         {
           "name": "storage.type.primitive.shiro",
-          "match": "\\b(bool|void|f32|f64|i8|i16|i32|i64|isize|u8|u16|u32|u64|usize)\\b"
+          "match": "\\b(bool|void|f32|f64|i8|i16|i32|i64|isize|u8|u16|u32|u64|usize|string)\\b"
         }
       ]
     },
